@@ -28,7 +28,7 @@ const Products: React.FC<ProductsProps> = ({ products = [] }) => {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             {products.map((product) => {
-              const { id, title, description, price, category, image, rating } =
+              const { id, title, price, category, image, rating } =
                 product;
               return (
                 <div

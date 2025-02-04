@@ -20,9 +20,11 @@ const Gallery = () => {
           </div>
         </div>
         <div className="relative group col-span-2">
-          <img
-            src="img9.jpg"
+          <Image
+            src="/img9.jpg"
             alt="Top Trending"
+            width={400}
+            height={400}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100">
@@ -32,9 +34,11 @@ const Gallery = () => {
           </div>
         </div>
         <div className="relative group">
-          <img
-            src="img4.jpg"
+          <Image
+            src="/img4.jpg"
             alt="Must-Haves"
+            width={400}
+            height={400}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100">
@@ -44,9 +48,11 @@ const Gallery = () => {
           </div>
         </div>
         <div className="relative group">
-          <img
-            src="img7.jpg"
+          <Image
+            src="/img7.jpg"
             alt="Shoes"
+            width={400}
+            height={400}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100">
@@ -56,9 +62,11 @@ const Gallery = () => {
           </div>
         </div>
         <div className="relative group">
-          <img
-            src="img5.jpg"
+          <Image
+            src="/img5.jpg"
             alt="Bags"
+            width={400}
+            height={400}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100">
@@ -68,9 +76,11 @@ const Gallery = () => {
           </div>
         </div>
         <div className="relative group">
-          <img
-            src="img3.jpg"
+          <Image
+            src="/img3.jpg"
             alt="50% Off"
+            width={400}
+            height={400}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100">
@@ -80,9 +90,11 @@ const Gallery = () => {
           </div>
         </div>
         <div className="relative group">
-          <img
-            src="img8.jpg"
+          <Image
+            src="/img8.jpg"
             alt="Special Offer"
+            width={400}
+            height={400}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100">

@@ -7,7 +7,6 @@ import Image from "next/image";
 import { TfiMenu } from "react-icons/tfi";
 import { RxCross2 } from "react-icons/rx";
 import { FiSearch } from "react-icons/fi";
-import { FiShoppingCart } from "react-icons/fi";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
