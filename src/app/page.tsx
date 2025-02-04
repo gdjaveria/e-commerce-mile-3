@@ -5,7 +5,7 @@ import Gallery from "./components/Gallery";
 import React, { useEffect, useState } from "react";
 import Products from "./components/ProductCard";
 
-const page: React.FC = () => {
+const Page: React.FC = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -42,4 +42,4 @@ const page: React.FC = () => {
   );
 };
 
-export default page;
+export default Page;
